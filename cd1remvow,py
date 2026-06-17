@@ -1,0 +1,6 @@
+text=input("enter a char")
+vowels="aeiouAEIOU"
+for char in text:
+    if char not in vowels:
+        print(char)
+        
